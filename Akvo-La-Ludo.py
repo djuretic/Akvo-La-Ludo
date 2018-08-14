@@ -22,20 +22,20 @@ def Komenco():
     forto = 100
     sano = 100
     response = str(input("> "))
-    while (response != "norde" and response != "sude" and response != "okcidente" and response != "oriente"):
-        if (response == "sano"):
+    while response not in ["norde", "sude", "okcidente", "oriente"]:
+        if response == "sano":
             print("Via sano estas: ", sano)
-        elif (response == "forto"):
+        elif response == "forto":
             print("Via forto estas: ", forto)
         response = str(input("> "))
-    if (response == "sude"):
+    if response == "sude":
         Oceano()
-    elif (response == "norde"):
+    elif response == "norde":
         Gxangalo()
         
 
 def Oceano():
-    if (random.randint(0,10) == 5):
+    if random.randint(0,10) == 5:
         print("La maro prenis vin, kaj vi mortis")
     else:
         print("Vi estas en la oceano, nagxante. Vi povas nagxi, cxu ne?")
