@@ -4,4 +4,4 @@ Tekstoludo en Esperanto
 
 Se vi povas kaj volas helpi min kun cxi tie ludo, diru al mi!
 
-Bona sxanco
+Bonan sxancon
